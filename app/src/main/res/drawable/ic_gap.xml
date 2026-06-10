@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="38dp"
+    android:height="38dp"
+    android:viewportWidth="38"
+    android:viewportHeight="38">
+    <!-- Two riders with a gap between them: a lead dot, a trailing dot, and an arrow. -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M30,19m-4,0a4,4 0 1,0 8,0a4,4 0 1,0 -8,0z" />
+    <path
+        android:fillColor="#990000"
+        android:pathData="M8,19m-4,0a4,4 0 1,0 8,0a4,4 0 1,0 -8,0z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M14,17.5h6v-2.5l4,4l-4,4v-2.5h-6z" />
+</vector>

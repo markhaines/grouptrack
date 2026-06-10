@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Declares the GroupTrack extension and the data fields it provides.
+  The `id` here MUST match the extension id passed to KarooExtension(...) in
+  GroupTrackExtension.kt ("grouptrack"), and each DataType `typeId` must match the
+  typeId in its DataTypeImpl subclass.
+-->
+<ExtensionInfo
+    displayName="@string/extension_name"
+    icon="@drawable/ic_gap"
+    id="grouptrack"
+    scansDevices="false">
+
+    <DataType
+        description="@string/gap_description"
+        displayName="@string/gap_name"
+        graphical="false"
+        icon="@drawable/ic_gap"
+        typeId="gap-to-last" />
+</ExtensionInfo>
