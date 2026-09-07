@@ -1,5 +1,7 @@
 # GroupTrack
 
+Dev tier: 3 (public)
+
 A [Hammerhead Karoo](https://www.hammerhead.io/) extension for group rides, built on the
 official [`karoo-ext`](https://github.com/hammerheadnav/karoo-ext) SDK.
 
